@@ -1,0 +1,32 @@
+.table {
+  display: grid;
+  grid-template-columns: repeat(14, 1fr);
+  grid-gap: 20px;
+  grid-auto-rows: minmax(100px, auto);
+}
+
+.title {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.flex-row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.center-row {
+  text-align: center;
+}
+
+.block {
+  padding: 1em;
+}
+
+.block--dark-magenta {
+  background: #772064;
+}
+
+.block--dark-pink {
+  background: #9a246e;
+}
