@@ -1,3 +1,19 @@
+.font-bold {
+  font-weight: bold;
+}
+
+.font-italic {
+  font-style: italic;
+}
+
+.font-13 {
+  font-size: 13px;
+}
+
+.font-16 {
+  font-size: 16px;
+}
+
 .table {
   display: grid;
   grid-template-columns: repeat(14, 1fr);
@@ -23,10 +39,80 @@
   padding: 1em;
 }
 
-.block--dark-magenta {
+.dark-magenta {
   background: #772064;
 }
 
-.block--dark-pink {
+.dark-pink {
   background: #9a246e;
+}
+
+.dark-moderate-pink {
+  background: #924162;
+}
+
+.vivid-red {
+  background: #ed1e24;
+}
+
+
+
+.vivid-orange {
+  background: #f47322;
+}
+
+.light-vivid-orange {
+  background: #fdaf17;
+}
+
+.very-soft-orange {
+  background: #fdd3bb;
+}
+
+.soft-orange {
+  background: #fdca95;
+}
+
+.very-soft-red {
+  background: #de8a8a;
+}
+
+.soft-red {
+  background: #f5a3a5;
+}
+
+.dark-lime-green {
+  background: #568557;
+}
+
+.moderate-green {
+  background: #68bd48;
+}
+
+.moderate-yellow {
+  background: #bcd74c;
+}
+
+.vivid-yellow {
+  background: #f3eb1a;
+}
+
+.white {
+  background: #fff;;
+}
+
+.very-soft-yellow {
+  background: #e1e880;
+}
+
+.very-soft-pink {
+  background: #f9b5ce;
+}
+
+.soft-yellow {
+  background: #f3eeb4;
+}
+
+.pale-yellow {
+  background: #fdf7a9;
 }
